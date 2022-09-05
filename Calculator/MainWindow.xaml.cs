@@ -24,5 +24,28 @@ namespace Calculator
         {
             InitializeComponent();
         }
+        public void Plus(object sender, RoutedEventArgs e)
+        {
+
+            double tal1 = 0;
+            double tal2 = 0;
+            double result = 0;
+
+            try
+            {
+                tal1 = double.Parse(tbTal1.Text);
+                tal2 = double.Parse(tbTal2.Text);
+                result= tal1+tal2;
+                TbResult.Text= result.ToString();
+
+
+            }
+            catch (Exception exc)
+            {
+                MessageBox.Show(exc.Message, "Woops...");
+            }
+            TbResult.Text = result.ToString();
+
+        }
     }
 }
