@@ -5,18 +5,27 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Calculator_v2._0"
         mc:Ignorable="d"
-        Background="#196963"
+        Background="#896963"
         Title="Better Calculator" Height="352" Width="758">
     <Grid>
-        <Label Content="" HorizontalAlignment="Center" Margin="0,42,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="33" Width="40" Name="sign"/>
 
+        <!-- regne tegnesymbol som skiftes, når regne tegnet ændres-->
+        <Label Content="" HorizontalAlignment="Center" Margin="0,30,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="33" Width="50" Name="sign" Height="77"/>
+
+        <!-- text box 1-->
         <TextBox HorizontalAlignment="Left" Margin="23,30,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="331" Height="77" FontWeight="Bold" FontSize="33" Name="tbTal1"/>
 
+        <!-- text box 2-->
         <TextBox HorizontalAlignment="Left" Margin="402,30,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="334" Height="77" FontWeight="Bold" FontSize="33" Name="tbTal2"/>
+        <!-- text box til resulat-->
         <TextBox HorizontalAlignment="Left" Margin="23,145,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="713" Height="77" FontWeight="Bold" FontSize="33" Name="tbResult"/>
+        <!-- Plus knappen-->
         <Button Content="Plus" HorizontalAlignment="Left" Margin="23,240,0,0" VerticalAlignment="Top" Height="61" Width="137" FontWeight="Bold" FontSize="33" Click="Plus"/>
+        <!-- Minus knappen-->
         <Button Content="Minus" HorizontalAlignment="Left" Margin="196,240,0,0" VerticalAlignment="Top" Height="61" Width="138" FontWeight="Bold" FontSize="33" Click="Minus"/>
+        <!-- Gange knappen-->
         <Button Content="Gange" HorizontalAlignment="Left" Margin="389,240,0,0" VerticalAlignment="Top" Height="61" Width="138" FontWeight="Bold" FontSize="33" Click="Gange"/>
+        <!-- Divider knappen-->
         <Button Content="Divider" HorizontalAlignment="Left" Margin="598,240,0,0" VerticalAlignment="Top" Height="61" Width="138" FontWeight="Bold" FontSize="33" Click="Divider" />
 
 
