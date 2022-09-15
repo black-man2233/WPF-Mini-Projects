@@ -16,10 +16,10 @@
                  Name="Tb_2"/>
         <Button Content="Fortryd" 
                 Margin="257,108,265,12" 
-                FontSize="22"/>
+                FontSize="22" Click="Fortryd_Click"/>
         <Button Content="Omdøb!" 
                 Margin="511,108,11,12" 
-                FontSize="22"/>
+                FontSize="22" Click="Omdøb_Click"/>
 
     </Grid>
 </Window>

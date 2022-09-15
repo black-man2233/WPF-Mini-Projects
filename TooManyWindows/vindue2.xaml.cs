@@ -28,6 +28,18 @@ namespace TooManyWindows
 
         }
 
-        
+        private void Omdøb_Click(object sender, RoutedEventArgs e)
+        {
+            DialogResult = true;
+            this.Close();
+
+        }
+
+        private void Fortryd_Click(object sender, RoutedEventArgs e)
+        {
+            DialogResult = false;
+            this.Close();
+
+        }
     }
 }
