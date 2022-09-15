@@ -7,11 +7,11 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <TextBox HorizontalAlignment="Left" Margin="10,0,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Center" Width="572" Height="378" FontSize="55" Name="Text_Box"/>
+        <TextBox HorizontalAlignment="Left" Margin="10,0,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Center" Width="572" Height="378" FontSize="55" Name="Text_Box"/>
         <Button Content="Create" Margin="607,28,17,241" FontSize="33" Click="Create_btn"/>
-        
-        <Button Content="Desttroy" Margin="607,224,17,46" FontSize="33" Click="Destroy_btn"/>
-        
+
+        <Button Content="Destroy" Margin="607,224,17,46" FontSize="33" Click="Destroy_btn"/>
+
 
     </Grid>
 </Window>

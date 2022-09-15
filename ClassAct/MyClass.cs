@@ -9,29 +9,24 @@ using System.Windows;
 
 namespace ClassAct 
 {
-    class MyClass : Window
+    class MyClass : MainWindow
 
     {
-        //int Tal;
-        public string Navn;
-         
+        
+        public int Tal { get; private set; }
+        public string Navn { get; private set; }
         public MyClass()
         {
-
-            Debug.Write("Dette er Constructoren! \n");
-            
+            Debug.Write("Dette er Default Constructoren!");
         }
-        ~MyClass()
+
+        public MyClass(int tal, string navn)
         {
-            if (Navn == null)
-            {
-                Debug.Write("Hej " + Navn + ", dette er Destructoren! \n");
-
-            }
-
-                GC.Collect();
-
+            Tal = tal;
+            Navn = navn;
+            Debug.Write("Dette er Non-default Constructoren!");
         }
+
     }
 
 }

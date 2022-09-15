@@ -27,18 +27,37 @@ namespace ClassAct
             InitializeComponent();
         }
 
+        public string SvarBox
+        {
+            get
+            {
+                return Text_Box.Text.ToString();
+            }
+
+            set
+            {
+                Text_Box.Text = value;
+            }
+        }
+
+
+
         private void Create_btn(object sender, RoutedEventArgs e)
         {
             myClass = new MyClass();
-            myClass.Navn = "Kevin";
             Text_Box.Text = myClass.Navn;
+            MainWindow mainWindow = new MainWindow();
+            mainWindow.Show();
+
         }
 
         private void Destroy_btn(object sender, RoutedEventArgs e)
         {
             myClass = null;
-            GC.Collect();
 
+            Text_Box.Text = $" Name was Destroyed";
+
+            GC.Collect();
         }
     }
 }
