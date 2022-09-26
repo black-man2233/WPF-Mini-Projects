@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TooManyWindows", "TooManyWi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwoWaysTest", "TwoWaysTest\TwoWaysTest.csproj", "{D804B635-E02C-4557-AC04-2D8C29292CB2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataBinding", "DataBinding\DataBinding.csproj", "{DD9DB610-99BB-4B11-AE58-D8FF6B14152A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{D804B635-E02C-4557-AC04-2D8C29292CB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D804B635-E02C-4557-AC04-2D8C29292CB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D804B635-E02C-4557-AC04-2D8C29292CB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD9DB610-99BB-4B11-AE58-D8FF6B14152A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD9DB610-99BB-4B11-AE58-D8FF6B14152A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD9DB610-99BB-4B11-AE58-D8FF6B14152A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD9DB610-99BB-4B11-AE58-D8FF6B14152A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
