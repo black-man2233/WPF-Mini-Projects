@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace DAtabaseAndUi
 {
-    class Person : INotifyPropertyChanged
+    public class Person : INotifyPropertyChanged
     {
         public int ID;
         //fornanv properti

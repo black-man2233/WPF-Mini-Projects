@@ -12,6 +12,7 @@ namespace TwoWayTest
     class Person : INotifyPropertyChanged
     {
         public int ID;
+            
         //fornanv properti
         private string _fornavn;
         public string Fornavn
@@ -26,6 +27,7 @@ namespace TwoWayTest
                 OnPropertyChanged("Fornavn");
             }
         }
+        
         //Eftervnan properti
         private string _efternavn;
         public string Efternavn
@@ -41,6 +43,7 @@ namespace TwoWayTest
 
             }
         }
+       
         //formue properti
         private int _formue;
         public int Formue

@@ -6,6 +6,7 @@
         xmlns:local="clr-namespace:TwoWaysTest"
         mc:Ignorable="d"
         Background="#2E6D92"
+        WindowStartupLocation="CenterOwner"
         Title="Two ways tiggin" Height="397" Width="692">
     <Grid VerticalAlignment="Stretch" HorizontalAlignment="Stretch">
         <Grid.Resources>

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -20,9 +21,33 @@ namespace DAtabaseAndUi
     /// </summary>
     public partial class MainWindow : Window
     {
+        ObservableCollection<Person> Personer = new ObservableCollection<Person>();
+
+        //Main Window 
         public MainWindow()
         {
             InitializeComponent();
+
+            Tabelen.ItemsSource = "";
+
+            //this.DataContext = Personer;
         }
+
+        //Vis Data button
+        //private void btnVisData_Click(object sender, RoutedEventArgs e)
+        //{
+        //    string PersonData = $"{Personer.Fornavn} {person.Efternavn} har en formue på {person.Formue} Kr.";
+
+        //    MessageBox.Show(PersonData);
+        //}
+
+        //Update button
+        private void btnUpdate_Click(object sender, RoutedEventArgs e)
+        {
+
+
+        }
+
+   
     }
 }

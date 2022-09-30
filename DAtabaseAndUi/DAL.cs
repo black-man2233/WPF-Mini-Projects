@@ -12,13 +12,14 @@ namespace DAtabaseAndUi
 
     public class DAL
     {
-        private ObservableCollection<Person> DataBase; //Da vi ikk ehar adgang til en database
+        //Da vi ikk ehar adgang til en database
         //simulere vi med denne private liste
+        private ObservableCollection<Person> DataBase;
 
-        private ObservableCollection<Person> _publicListe; // Dette er objektet med elemener vi "deler ud " til brugeren af vores class.
+        // Dette er objektet med elemener vi "deler ud " til brugeren af vores class.
+        private ObservableCollection<Person> _publicListe;
 
         //Constructiren generer data til falske database
-
         public DAL()
         {
             DataBase = new ObservableCollection<Person>();

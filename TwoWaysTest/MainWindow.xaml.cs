@@ -33,10 +33,12 @@ namespace TwoWaysTest
             Personer.Add(person);
             Personer.Add(new Person(0, "Bein", "Stagge", -987654321));
             Personer.Add(new Person(1, "Turt", "Khorsen", 0));
-            Personer.Add(new Person(2, "Gill", "Bates", int.MaxValue));
 
 
-            this.DataContext = Personer;
+           // this.DataContext = Personer;
+
+
+
         }
 
         //Vis Data button
@@ -50,7 +52,8 @@ namespace TwoWaysTest
         //Update button
         private void btnUpdate_Click(object sender, RoutedEventArgs e)
         {
-            person.Formue++;
+            Personer.Add(new Person(2, "Gill", "Bates", int.MaxValue));
+
         }
     }
 }
